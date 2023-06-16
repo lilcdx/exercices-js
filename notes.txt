@@ -1,0 +1,36 @@
+Java Script
+
+Mettre en dernier (apres html)
+ - fin du body 
+ - head (script defer src)
+
+Message pop up : alert(message)
+
+Console :
+.log(message)
+
+Variables :
+
+let nom = contenu;
+const -> constante
+
+Fonctions :
+
+basique : function nom(a,b){contenu;};
+
+fléchée :
+const nom = (a,b) => {contenu;};
+
+Query selector :
+
+document.querySelector(balise)
+
+changer style : balise.style.attrCSS = ...
+
+Listeners/Events :
+
+element.addEventListener(event, function(e));
+e.preventDefault(e) + (return false) -> eviter comportement par defaut
+
+Event on window :
+
